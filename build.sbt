@@ -22,12 +22,10 @@ libraryDependencies ++= Seq(
   "com.syncthemall" % "boilerpipe" % "1.2.2",
   
   "com.google.protobuf" % "protobuf-java" % "3.5.1",
+
   "org.scala-lang" % "scala-library" % "2.11.11",
   "org.scala-lang" % "scala-reflect" % "2.11.11",
+
   "org.slf4j" % "slf4j-api" % "1.7.25",
   
   "com.novocode" % "junit-interface" % "0.11" % "test")
-  
-
-
-fork in run := true

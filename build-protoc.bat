@@ -1,2 +1,2 @@
-protoc  --java_out=./src/main/java   ./src/main/java/protos/Customer.proto
+protoc  --java_out=./src/main/java   ./src/main/protos/Customer.proto
 pause

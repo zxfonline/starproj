@@ -72,5 +72,6 @@ public class TestAkkaSerial {
 		final ActorRef server = system.actorOf(Props.create(ServerActor.class, serializer), "server");
 		final ActorRef client = system.actorOf(Props.create(ClientActor.class, serializer, server), "client");
 		client.tell("start", ActorRef.noSender());
+		system.whenTerminated();
 	}
 }
