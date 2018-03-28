@@ -1,0 +1,8 @@
+option java_package = "com.rgtech.bean";
+option java_outer_classname = "PbCustomer";
+
+message Customer {
+  required string username = 1;
+  required int32 age = 2;
+  optional string tel = 3;
+}
