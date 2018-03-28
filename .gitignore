@@ -9,3 +9,4 @@ project/!build.properties
 .cache-main
 *.classpath
 *.project
+.sbtserver/
