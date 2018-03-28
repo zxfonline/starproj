@@ -6,6 +6,7 @@ libexec/
 .settings/
 project/
 project/!build.properties
+project/!eclipse.sbt
 .cache-main
 *.classpath
 *.project
